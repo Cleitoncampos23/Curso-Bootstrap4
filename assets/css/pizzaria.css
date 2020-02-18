@@ -2,65 +2,81 @@
     padding: 2rem;
 }
 
-
 .row>.col,
 .row>[class^=col-],
 .bg {
     padding-top: .75rem;
     padding-bottom: .75rem;
-   /* background-color: rgba(243, 116, 32, 0.534); */
-   /*border: 1px solid rgb(243, 117, 32, .2); */
+    /* background-color: rgba(243, 116, 32, 0.534);*/
+    /* border: 1px solid rgb(243, 117, 32, .2); */
     font-family: 'Italianno', cursive;
 }
 
-#header{
+#header {
     background-color: #F37520;
-    height:  6vh; 
+    height: 6vh;
 }
-#header p {
 
+#header p {
     color: white;
     text-transform: uppercase;
 }
 
-#header, nav, a {
-   
+#header,
+nav,
+a {
     color: #EDEDED;
-
 }
-#header, nav, a:hover{
+
+#header,
+nav,
+a:hover {
     text-decoration: none;
     color: white;
-   
 }
+
 #menu {
     background-color: #EDEDED;
     min-height: 60vh;
     min-width: 14vw;
-    
 }
-#menu nav a{
-    
+
+#menu nav a {
     color: rgba(0, 0, 0, 0.603);
 }
+
 #secao {
     background-color: #FFFFFF;
     min-height: 60vh;
-    
 }
 
-#footer{
+#footer {
     background-color: #454545;
     min-height: 20vh;
     font-size: 12px;
-    
 }
 
-#footer-site {
+#footer nav {
+    padding: 0px;
+}
+
+#footer nav p {
+    margin-top: 4vh;
+    font-size: 13px;
+}
+
+#footer-main {
     background-color: #454545;
 }
-#footer-site nav a{
-    text-transform: lowercase;
-    font-size: 15px;
 
+#footer-main div {
+    padding: 0.5vh;
+}
+
+#footer-main nav p {
+    margin: 0 auto;
+}
+
+#footer-main nav a {
+    font-size: 15px;
 }
