@@ -14,7 +14,7 @@
 
 #header {
     background-color: #F37520;
-    height: 6vh;
+    height: 7vh;
 }
 
 #header p {
@@ -45,9 +45,10 @@ a:hover {
     color: rgba(0, 0, 0, 0.603);
 }
 
-#secao {
+#aside {
     background-color: #FFFFFF;
     min-height: 60vh;
+    flex-direction: column;
 }
 
 #footer {
@@ -70,7 +71,7 @@ a:hover {
 }
 
 #footer-main div {
-    padding: 0.5vh;
+    padding: 2vh;
 }
 
 #footer-main nav p {
