@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/imagem.css">
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img src="https://images.unsplash.com/photo-1516926401737-ba754884071a?ixlib=rb-1.2
+            .1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="foto" class="img-fluid">
+                <!--
+                pra deixar uma imagem centralizada no bootstrap basta colocar o img-fluid dentro da tag class
+            -->
+                <img src="" alt="">
+            </div>
+            <div class="col">
+                <img src="https://images.unsplash.com/photo-1516926401737-ba754884071a?ixlib=rb-1.2
+            .1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="foto" class="img-fluid">
+                <img src="" alt="">
+            </div>
+        </div>
+        <div class="col">
+            <img src="https://images.unsplash.com/photo-1516926401737-ba754884071a?ixlib=rb-1.2
+        .1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="foto" class="img-fluid">
+            <img src="" alt="">
+        </div>
+        <hr>
+        <div class="col">
+            <img src="https://images.unsplash.com/photo-1516926401737-ba754884071a?ixlib=rb-1.2
+            .1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="foto" class="img-thumbnail">
+        </div>
+        <!--
+                O img-thumbnail vai fazer a mesma coisa que o fluid faz, a diferença é que ele adiciona uma
+                borda em volta da imagem
+        -->
+        <hr>
+        <div class="col">
+            <img src="https://images.unsplash.com/photo-1516926401737-ba754884071a?ixlib=rb-1.2
+            .1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="foto" class="img-fluid rounded">
+        </div>
+        <!--
+            A img-rounded deixa a imagem arredondada
+        -->
+
+        <hr>
+        <div class="col">
+            <img src="https://images.unsplash.com/photo-1516926401737-ba754884071a?ixlib=rb-1.2
+            .1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="foto" class="rounded d-block mx-auto" style="width: 256px;">
+            <hr>
+        </div>
+        <picture>
+            <source srcset="https://images.unsplash.com/photo-1516926401737-ba754884071a?ixlib=rb-1.2
+            .1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80">
+
+            </source>
+            <img src="https://images.unsplash.com/photo-1516926401737-ba754884071a?ixlib=rb-1.2
+            .1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="foto" class="img-fluid img-thumbnail">
+            <figcaption class="figure-caption">
+                Legenda da imagem
+            </figcaption>
+        </picture>
+
+        <hr>
+        <figure class="figure ">
+            <img src="https://images.unsplash.com/photo-1516926401737-ba754884071a?ixlib=rb-1.2
+            .1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="foto" class="figure-img img-fluid">
+            <figcaption class="figure-caption text-right">
+                Legenda da imagem
+            </figcaption>
+        </figure>
+        <figure class="figure ">
+            <img src="https://images.unsplash.com/photo-1516926401737-ba754884071a?ixlib=rb-1.2
+            .1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="foto" class="figure-img img-fluid">
+            <figcaption class="figure-caption text-center">
+                Legenda da imagem
+            </figcaption>
+        </figure>
+    </div>
+
+
+
+</body>
+
+</html>
